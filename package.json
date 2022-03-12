@@ -3,11 +3,11 @@
   "version": "0.0.1",
   "description": "List all files in a directory",
   "author": "TrK",
+  "main": "server.js",
   "scripts": {
-    "run": "node server.js"
+    "start": "node server.js"
   },
   "dependencies": {
-    "react": "^17.0.2",
     "serve": "13.0.2",
     "serve-handler": "6.1.3"
   }
