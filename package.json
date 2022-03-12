@@ -1,0 +1,14 @@
+{
+  "name": "ttb-lister",
+  "version": "0.0.1",
+  "description": "List all files in a directory",
+  "author": "TrK",
+  "scripts": {
+    "run": "node server.js"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "serve": "13.0.2",
+    "serve-handler": "6.1.3"
+  }
+}
