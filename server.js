@@ -16,6 +16,6 @@ const server = http.createServer((request, response) => {
 });
 })
 
-server.listen(.env.PORT, () => {
+server.listen(process.env.PORT, () => {
   console.log('Running at http://localhost:$PORT');
 });
